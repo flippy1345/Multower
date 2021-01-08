@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Transition_to_Lobby
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[],"$version":"A"}}'
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"Button","parameterTypes":["UnityEngine.Rect","System.String"],"targetType":"UnityEngine.GUI","targetTypeName":"UnityEngine.GUI","$version":"A"},"defaultValues":{"%position":{"xMin":0.0,"yMin":0.0,"xMax":0.0,"yMax":0.0,"$type":"UnityEngine.Rect"},"%text":{"$content":"","$type":"System.String"}},"position":{"x":-408.0,"y":-160.0},"guid":"e39c9960-edb9-44d2-acbf-959d2284d53e","$version":"A","$type":"Bolt.InvokeMember"}],"$version":"A"}}'
     _objectReferences: []
