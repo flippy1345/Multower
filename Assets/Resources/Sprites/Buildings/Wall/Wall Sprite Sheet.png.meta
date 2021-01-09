@@ -1,34 +1,34 @@
 fileFormatVersion: 2
-guid: 1bbbdee0344f0474486f9c29159ea03b
+guid: 6de8d6234f572c446b9447fba841af87
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7529719773280480054
-    second: Floor Top Left
+      213: -1405250830541722420
+    second: Wall Top Left
   - first:
-      213: -5100080230622403439
-    second: Floor Top
+      213: -6429776423087833232
+    second: Wall Top
   - first:
-      213: -3159680953728329997
-    second: Floor Top Right
+      213: -4434707510338582665
+    second: Wall Top Right
   - first:
-      213: -8094174726767445428
-    second: Floor Left
+      213: 6810708464502063052
+    second: Wall Left
   - first:
-      213: -4134122410773785925
-    second: Floor Center
+      213: 2724475926740844977
+    second: Wall Center
   - first:
-      213: 5764060932374864653
-    second: Floor Right
+      213: 2363897603491268751
+    second: Wall Right
   - first:
-      213: 4490164615325885346
-    second: Floor Bottom Left
+      213: -2435244985813811123
+    second: Wall Bottom Left
   - first:
-      213: -8757111721505465939
-    second: Floor Bottom
+      213: -4645634531732253775
+    second: Wall Bottom
   - first:
-      213: 7284554054402358467
-    second: Floor Bottom Right
+      213: -8925293365551637573
+    second: Wall Bottom Right
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -69,7 +69,7 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
@@ -118,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Floor Top Left
+      name: Wall Top Left
       rect:
         serializedVersion: 2
         x: 0
@@ -126,20 +126,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b2e985d30fe7860800000000000000
-      internalID: 7529719773280480054
+      spriteID: cccec31a0db8f7ce0800000000000000
+      internalID: -1405250830541722420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Top
+      name: Wall Top
       rect:
         serializedVersion: 2
         x: 32
@@ -147,20 +147,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19462c73d00e839b0800000000000000
-      internalID: -5100080230622403439
+      spriteID: 07ffaacd868d4c6a0800000000000000
+      internalID: -6429776423087833232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Top Right
+      name: Wall Top Right
       rect:
         serializedVersion: 2
         x: 64
@@ -168,20 +168,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f6947dc9ee8624d0800000000000000
-      internalID: -3159680953728329997
+      spriteID: 7770383f301c472c0800000000000000
+      internalID: -4434707510338582665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Left
+      name: Wall Left
       rect:
         serializedVersion: 2
         x: 0
@@ -189,20 +189,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4af41588f6bbaf80800000000000000
-      internalID: -8094174726767445428
+      spriteID: ccf3467834f748e50800000000000000
+      internalID: 6810708464502063052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Center
+      name: Wall Center
       rect:
         serializedVersion: 2
         x: 32
@@ -210,20 +210,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2d8d72295a0a6c0800000000000000
-      internalID: -4134122410773785925
+      spriteID: 1b1cd74ab684fc520800000000000000
+      internalID: 2724475926740844977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Right
+      name: Wall Right
       rect:
         serializedVersion: 2
         x: 64
@@ -231,20 +231,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0329e1f0ee0eff40800000000000000
-      internalID: 5764060932374864653
+      spriteID: f888e7d88504ec020800000000000000
+      internalID: 2363897603491268751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Bottom Left
+      name: Wall Bottom Left
       rect:
         serializedVersion: 2
         x: 0
@@ -252,20 +252,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a3278f7de4405e30800000000000000
-      internalID: 4490164615325885346
+      spriteID: d40448f7695443ed0800000000000000
+      internalID: -2435244985813811123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Bottom
+      name: Wall Bottom
       rect:
         serializedVersion: 2
         x: 32
@@ -273,20 +273,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9d145594d787680800000000000000
-      internalID: -8757111721505465939
+      spriteID: 1b39fcbc104678fb0800000000000000
+      internalID: -4645634531732253775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Floor Bottom Right
+      name: Wall Bottom Right
       rect:
         serializedVersion: 2
         x: 64
@@ -294,14 +294,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ccb8c7315fe71560800000000000000
-      internalID: 7284554054402358467
+      spriteID: bbbd426e8fcf22480800000000000000
+      internalID: -8925293365551637573
       vertices: []
       indices: 
       edges: []
