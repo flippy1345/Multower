@@ -1,0 +1,39 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Main Menu",
+            "id": "fa1013f9-f135-450b-a2f0-93706fb7a590",
+            "actions": [
+                {
+                    "name": "Exit",
+                    "type": "Button",
+                    "id": "5e1c3e20-1f23-4b16-96b9-db56052437bf",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "afdf7189-ba11-4dce-90ca-d82e9c628926",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "KeyBoard and Mouse",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "KeyBoard and Mouse",
+            "bindingGroup": "KeyBoard and Mouse",
+            "devices": []
+        }
+    ]
+}
