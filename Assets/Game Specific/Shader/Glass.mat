@@ -128,9 +128,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
-    - Vector1_b49e357744ed468faaae1bfacc13fe65: 0.044
-    - Vector1_e0aecc4211814822891e5828037fe175: 0.086
+    - Vector1_b49e357744ed468faaae1bfacc13fe65: 0.05
+    - Vector1_e0aecc4211814822891e5828037fe175: 0.078
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
