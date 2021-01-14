@@ -20,6 +20,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Layer_713DD8BF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Layer_8978EE45:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_150a385aa0de4da4a53bec48f9890675:
+        m_Texture: {fileID: 8400000, guid: 03cf509fcc3987e41b6e3904d24cdaac, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_aa9023797cc7475ab52738938e9b2612:
         m_Texture: {fileID: 2800000, guid: a8481fb766ba2134b9cd99d5d98e7a0a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -130,7 +142,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_b49e357744ed468faaae1bfacc13fe65: 0.05
+    - Vector1_b49e357744ed468faaae1bfacc13fe65: 0
     - Vector1_e0aecc4211814822891e5828037fe175: 0.078
     - _AlphaClip: 0
     - _Blend: 0
