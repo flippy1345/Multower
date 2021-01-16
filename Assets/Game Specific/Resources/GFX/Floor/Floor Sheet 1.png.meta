@@ -13,22 +13,40 @@ TextureImporter:
     second: Floor Top Right
   - first:
       213: -8094174726767445428
-    second: Floor Left
+    second: Floor Top Left Bottom
   - first:
       213: -4134122410773785925
-    second: Floor Center
+    second: Floor Top Left Right
   - first:
       213: 5764060932374864653
-    second: Floor Right
+    second: Floor Left
   - first:
       213: 4490164615325885346
-    second: Floor Bottom Left
+    second: Floor Center
   - first:
       213: -8757111721505465939
-    second: Floor Bottom
+    second: Floor Right
   - first:
       213: 7284554054402358467
+    second: Floor Left Right
+  - first:
+      213: -8700125742730829507
+    second: Floor Top Right Bottom
+  - first:
+      213: -6483089385580583376
+    second: Floor Bottom Left
+  - first:
+      213: -4080435880814227547
+    second: Floor Bottom
+  - first:
+      213: 8255267423220753843
     second: Floor Bottom Right
+  - first:
+      213: 7537742203410012199
+    second: Floor Left Right Bottom
+  - first:
+      213: 8231370781873837310
+    second: Floor Top Bottom
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -126,7 +144,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,7 +165,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,7 +186,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,6 +194,48 @@ TextureImporter:
       bones: []
       spriteID: 3f6947dc9ee8624d0800000000000000
       internalID: -3159680953728329997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor Top Left Bottom
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4af41588f6bbaf80800000000000000
+      internalID: -8094174726767445428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor Top Left Right
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2d8d72295a0a6c0800000000000000
+      internalID: -4134122410773785925
       vertices: []
       indices: 
       edges: []
@@ -189,14 +249,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4af41588f6bbaf80800000000000000
-      internalID: -8094174726767445428
+      spriteID: d0329e1f0ee0eff40800000000000000
+      internalID: 5764060932374864653
       vertices: []
       indices: 
       edges: []
@@ -210,14 +270,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2d8d72295a0a6c0800000000000000
-      internalID: -4134122410773785925
+      spriteID: 2a3278f7de4405e30800000000000000
+      internalID: 4490164615325885346
       vertices: []
       indices: 
       edges: []
@@ -231,14 +291,56 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0329e1f0ee0eff40800000000000000
-      internalID: 5764060932374864653
+      spriteID: da9d145594d787680800000000000000
+      internalID: -8757111721505465939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor Left Right
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccb8c7315fe71560800000000000000
+      internalID: 7284554054402358467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor Top Right Bottom
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d312c437bb1f24780800000000000000
+      internalID: -8700125742730829507
       vertices: []
       indices: 
       edges: []
@@ -252,14 +354,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a3278f7de4405e30800000000000000
-      internalID: 4490164615325885346
+      spriteID: 0362d5d7d807706a0800000000000000
+      internalID: -6483089385580583376
       vertices: []
       indices: 
       edges: []
@@ -273,14 +375,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da9d145594d787680800000000000000
-      internalID: -8757111721505465939
+      spriteID: 5af4f4b7f216f57c0800000000000000
+      internalID: -4080435880814227547
       vertices: []
       indices: 
       edges: []
@@ -294,14 +396,56 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ccb8c7315fe71560800000000000000
-      internalID: 7284554054402358467
+      spriteID: 3b56deeabf9909270800000000000000
+      internalID: 8255267423220753843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor Left Right Bottom
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72859bae8907b9860800000000000000
+      internalID: 7537742203410012199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floor Top Bottom
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef49e1c4d14bb3270800000000000000
+      internalID: 8231370781873837310
       vertices: []
       indices: 
       edges: []
