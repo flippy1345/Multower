@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Glass
   m_Shader: {fileID: -6465566751694194690, guid: e34c6cfb3966c05419328d6f1cdcc94f, type: 3}
-  m_ShaderKeywords: _EMISSION
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -25,6 +25,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Layer_8978EE45:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2DArray_0c74230d82544146931fd9f61b271cc2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -142,13 +146,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_b49e357744ed468faaae1bfacc13fe65: 0
-    - Vector1_e0aecc4211814822891e5828037fe175: 0.078
+    - Vector1_b49e357744ed468faaae1bfacc13fe65: 0.03
+    - Vector1_d13290a813744d649adb5d89a1e6ae17: 0
+    - Vector1_e0aecc4211814822891e5828037fe175: 0.04
+    - Vector1_e88c0f6e1eaf4a7e9fbaea08c9846c3e: 500
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorMask: 15
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -171,11 +178,17 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _Surface: 1
+    - _UseUIAlphaClip: 0
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
-    - Color_305d4c951ede4aa99eae6e31cafebd1f: {r: 0.6517889, g: 0.83366674, b: 0.9150943, a: 1}
+    - Color_305d4c951ede4aa99eae6e31cafebd1f: {r: 0.6944642, g: 0.8680662, b: 0.9622642, a: 1}
     - _BASE_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0.42745098}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
